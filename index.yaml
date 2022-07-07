@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  busyboxchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-07T13:16:43.6270326+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 208ac3769589860ca02a0bfd9c221063af384c1d635cf91d5d6eace7bedf9e8a
+    name: busyboxchart
+    type: application
+    urls:
+    - https://sarthakdalmia10.github.io/helmrepo/busyboxchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-07T13:16:43.6224509+05:30"
