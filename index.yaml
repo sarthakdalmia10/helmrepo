@@ -3,12 +3,12 @@ entries:
   busyboxchart:
   - apiVersion: v2
     appVersion: 1.35.0
-    created: "2022-07-08T14:00:22.4005154+05:30"
+    created: "2022-07-08T14:29:13.3788284+05:30"
     description: A Helm chart for Kubernetes
-    digest: c00c6e21be5eb13c29435b72cbd2dcd9d77939fc0677b380ff11ad42be80e4e6
+    digest: 345798f538609670d9fbc759e55dc18ddfa369dfd06c696de0bd6a66ee0f1c6f
     name: busyboxchart
     type: application
     urls:
     - https://sarthakdalmia10.github.io/helmrepo/busyboxchart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-08T14:00:22.3997183+05:30"
+generated: "2022-07-08T14:29:13.3775582+05:30"
