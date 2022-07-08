@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ include "busyboxchart.fullname" . }}
+  namespace: git-helm-config-new
+spec:
+  containers:
+  - image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: {{ .Values.image.pullPolicy }}
+    name: {{ .Chart.Name }}
+  restartPolicy: Never
